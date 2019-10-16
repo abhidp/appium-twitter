@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "android.app": "./node_modules/.bin/wdio ./config/wdio.android.app.conf.js",
+    "lint": "eslint config tests"
   },
   "keywords": [],
   "author": "",
